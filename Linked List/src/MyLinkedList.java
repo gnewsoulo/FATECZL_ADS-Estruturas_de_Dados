@@ -14,6 +14,12 @@ public class MyLinkedList {
 		tail = newbook;
 	}
 	
+	public void addBook(Book newbook) {
+		total++;
+		newbook.setPrevious(tail);
+		tail = newbook;
+	}
+	
 	public void listBooks() {
 		Book current = tail;
 		while (current != null) {
