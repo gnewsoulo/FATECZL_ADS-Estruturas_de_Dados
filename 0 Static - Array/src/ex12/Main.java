@@ -25,7 +25,7 @@ public class Main {
 			multTable[i-1] = number * i;
 			System.out.println(number + " * " + i + " = " + multTable[i-1]);
 		}
-		
+		scanner.close();
 		System.out.println("Full multiplication table for " + number + " (1 to " + limit + "):");
 		System.out.println(Arrays.toString(multTable));
 	}

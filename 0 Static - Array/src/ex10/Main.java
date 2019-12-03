@@ -23,7 +23,7 @@ public class Main {
 			}
 			negatives[i] = positives[i] * -1;
 		}
-		
+		scanner.close();
 		System.out.println("Positives: " + Arrays.toString(positives));
 		System.out.println("Negatives: " + Arrays.toString(negatives));
 	}

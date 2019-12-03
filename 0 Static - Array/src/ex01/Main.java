@@ -23,5 +23,6 @@ public class Main {
 				System.out.println("my_array[" + i + "] = " + my_array[i] + "\n");
 			}
 		}
+		scanner.close();
 	}
 }

@@ -21,7 +21,7 @@ public class Main {
 			numbers[i] = scanner.nextInt();
 			halves[i] = numbers[i] / 2;
 		}
-		
+		scanner.close();
 		System.out.println("Numbers: " + Arrays.toString(numbers));
 		System.out.println("Halved numbers: " + Arrays.toString(halves));
 	}

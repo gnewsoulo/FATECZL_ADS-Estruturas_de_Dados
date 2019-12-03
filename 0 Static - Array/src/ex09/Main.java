@@ -20,7 +20,7 @@ public class Main {
 			numbers[i] = scanner.nextInt();
 			squares[i] = factorial(numbers[i]);
 		}
-		
+		scanner.close();
 		System.out.println("Numbers array: " + Arrays.toString(numbers));
 		System.out.println("Squares array: " + Arrays.toString(squares));	
 	}

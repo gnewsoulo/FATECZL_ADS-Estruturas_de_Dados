@@ -34,5 +34,6 @@ public class Main {
 				System.out.println("\n" + array[i] + " is prime");
 			}
 		}
+		scanner.close();
 	}
 }

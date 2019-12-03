@@ -42,5 +42,6 @@ public class Main {
 				System.out.println("\n Z[" + i + "] = " + arrayZ[i]);			
 			}
 		}
+		scanner.close();
 	}
 }

@@ -43,7 +43,7 @@ public class Main {
 				counter ++;
 			}
 		}
-		
+		scanner.close();
 		System.out.println("Array X: " + Arrays.toString(arrayX));
 		System.out.println("Array Y: " + Arrays.toString(arrayY));
 		System.out.println("Array Z: " + Arrays.toString(arrayZ));

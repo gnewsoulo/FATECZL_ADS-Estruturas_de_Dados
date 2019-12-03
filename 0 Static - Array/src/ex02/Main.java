@@ -25,7 +25,7 @@ public class Main {
 				total += my_array[i];
 			}
 		}
-		
+		scanner.close();
 		System.out.println("Sum of the 100 values in my_array: " + total);
 	}
 }

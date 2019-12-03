@@ -29,7 +29,7 @@ public class Main {
 				altered[i] = numbers[i];
 			}
 		}
-		
+		scanner.close();
 		System.out.println("Original values: " + Arrays.toString(numbers));
 		System.out.println("Altered values: " + Arrays.toString(altered));
 	}

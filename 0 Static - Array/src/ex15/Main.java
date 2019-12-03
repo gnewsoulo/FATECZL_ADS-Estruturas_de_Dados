@@ -44,7 +44,7 @@ public class Main {
 				nums[i] = aux;
 			}
 		}
-		
+		scanner.close();
 		System.out.println(Arrays.toString(nums));
 	}
 	

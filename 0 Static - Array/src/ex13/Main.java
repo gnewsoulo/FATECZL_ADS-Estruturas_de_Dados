@@ -26,7 +26,7 @@ public class Main {
 			tempF[i] = CtoF(tempC[i]);
 			tempK[i] = CtoK(tempC[i]);
 		}
-		
+		scanner.close();
 		System.out.println("Temperatures in degrees Celsius: " + Arrays.toString(tempC));
 		System.out.println("Temperatures in degrees Fahrenheit: " + Arrays.toString(tempF));
 		System.out.println("Temperatures in the Kelvin scale: " + Arrays.toString(tempK));

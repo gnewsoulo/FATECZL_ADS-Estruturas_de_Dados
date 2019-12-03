@@ -33,5 +33,6 @@ public class Main {
 		for (int i = 0; i < arrayC.length; i++) {
 			System.out.println("\n Array C[" + i + "] = " + arrayC[i]);			
 		}
+		scanner.close();
 	}
 }

@@ -19,7 +19,7 @@ public class Main {
 			my_array[i] = scanner.nextDouble();
 			total += my_array[i];
 		}
-		
+		scanner.close();
 		System.out.println("Average of the 50 grades: " + (total/my_array.length));
 	}
 }
