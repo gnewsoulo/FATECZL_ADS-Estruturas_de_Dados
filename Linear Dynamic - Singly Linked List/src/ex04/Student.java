@@ -23,10 +23,10 @@ public class Student {
 	public void setNext(Student next) {
 		this.next = next;
 	}	
-	public String getcode() {
+	public String getCode() {
 		return code;
 	}
-	public void setcode(String code) {
+	public void setCode(String code) {
 		this.code = code;
 	}
 	public String getName() {

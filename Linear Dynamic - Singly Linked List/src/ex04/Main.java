@@ -16,14 +16,37 @@ public class Main {
 		
 		MyList list = new MyList();
 		
-		list.append(alice);
-		list.append(bob);	
-		list.append(claire);
-		list.append(ethan);
-		list.append(fran);
-		list.insert(3, danielle);
-		list.pop();
-		System.out.println("");
-		list.clear();
+//		list.append(alice);
+//		list.pop();
+//		System.out.println(list.size());
+		
+//		list.append(alice);
+//		list.append(bob);	
+//		list.append(claire);
+//		list.append(ethan);
+//		list.append(fran);
+//		list.insert(3, danielle);
+//		list.clear();
+//		System.out.println("");
+		
+//		list.append(alice);
+//		list.append(bob);	
+//		list.append(claire);
+//		list.append(ethan);
+//		list.append(fran);
+//		list.insert(3, danielle);
+//		System.out.println("");
+//		list.search("danielle");
+//		list.display("DANIELLE");
+//		System.out.println("");		
+//		list.remove("danielle");
+//		list.search("danielle");
+//		System.out.println("");
+		
+//		list.insert(3, danielle);		
+//		list.remove(3);
+//		list.search("danielle");
+//		System.out.println("");
+
 	}
 }
