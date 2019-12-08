@@ -10,21 +10,12 @@ public class Main {
 		wq.addPerson("Ethan");
 		wq.addPerson("Felicia");
 		
+		System.out.println(wq.size());
+		System.out.println("");
 		wq.printQueue();
-		System.out.println(wq.length());	
+		System.out.println("");
 		wq.checkHead();
 		wq.checkTail();
-		System.out.println("\n");
-		
-		wq.callNext();
-		Person Gerard = new Person("Gerard");
-		wq.addPerson(Gerard);
-		wq.printQueue();
-		System.out.println(wq.length());
-		wq.checkHead();
-		wq.checkTail();
-		System.out.println("\n");
-		
-		wq.clearQueue();
+
 	}
 }

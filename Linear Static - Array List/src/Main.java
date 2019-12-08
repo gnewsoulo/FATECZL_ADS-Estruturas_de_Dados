@@ -12,6 +12,7 @@ public class Main {
 		my_array.add(s3);
 
 		my_array.print();
+		System.out.println("");
 
 		Student joana = new Student("Joana", 903);
 

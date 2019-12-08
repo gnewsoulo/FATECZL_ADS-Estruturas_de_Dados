@@ -34,6 +34,7 @@ public class Main {
 			System.out.println("Insert score for competitor " + (i + 1) + ":");
 			scores[i] = scanner.nextInt();
 		}
+		scanner.close();
 		
 		for (int i = 0; i < scores.length - 1 ; i++) {
 			for (int j = i+1; j < scores.length; j++) {

@@ -6,6 +6,12 @@ public class Book {
 	private double price;
 	private Book previous;
 	
+	public Book(String tit, String aut, double pri) {
+		title = tit;
+		author = aut;
+		price = pri;
+	}
+	
 	public Book(int reg, String tit, String aut, double pri) {
 		registry = reg;
 		title = tit;
