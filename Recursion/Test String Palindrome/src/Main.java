@@ -13,13 +13,22 @@ public class Main {
 //		String string = scanner.nextLine();
 		String string = "ARARA";
 		
-		System.out.println("Is " + string + " a palindrome? " + isPalindrome(string) + "!");
+		if (isPalindrome(string)) {
+			System.out.println(string + " is a palindrome!");
+		} else {
+			System.out.println(string + " is not a palindrome!");
+		}
 	}
 	
 	public static boolean isPalindrome(String string) {
-		if (string.charAt(0) == string.charAt(string.length()-1) && string.length() > 1) {
-			return isPalindrome(string.substring(1, string.length() - 2));
-		}
-		return ( string.charAt(0) == string.charAt(string.length()-1) );
+		int end = string.length() -1;
+		if (string.toLowerCase().charAt(0) == string.toLowerCase().charAt(end)) {
+			if ((end - 0) <= 1) {
+				return true;
+			}
+			return isPalindrome(string.substring(1, end));
+		}	
+		return false;
 	}
+
 }
