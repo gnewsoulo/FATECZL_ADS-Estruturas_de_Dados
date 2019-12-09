@@ -1,8 +1,9 @@
+package Wrong;
 
 public class Main {
 	public static void main(String[] args) {
 		
-		int[] my_array = {35, 45, 20, 18, 58, 75, 28, 9};
+		int[] my_array = {58, 45, 20, 18, 35, 75, 28, 9};
 		int g1 = findGreatest(my_array);
 		int g2 = findGreatest(my_array, 0, my_array.length);
 		
