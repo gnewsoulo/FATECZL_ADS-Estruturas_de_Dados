@@ -23,10 +23,12 @@ public class Main {
 		monster.addIngredient("gorgonzola cheese");
 		monster.addIngredient("fries");
 		monster.addIngredient("parmesan cheese");
+		monster.addIngredient("mozzarella cheese");
 		monster.addIngredient("black olives");
 		myCart.addItem(monster);
-
 		
-		System.out.println("The total cost of your " + myCart.totalItems() + " pizzas is : $" + myCart.totalCost());
+		System.out.println("\nThe total cost of your " + myCart.totalItems() + " pizzas is : $" + myCart.totalCost());
+		System.out.println("\nTotal of ingredients used in all pizzas:");
+		mozzarella.displayAllIngredients();
 	}	
 }

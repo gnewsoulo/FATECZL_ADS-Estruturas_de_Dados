@@ -6,12 +6,13 @@ public class Pizza {
 	
 	private String flavor;
 	private double price;
+	private static int totalPizzas = 0;
+	private static Map <String, Integer> allIngredients = new HashMap <String, Integer>();
 	
 	Map <Integer, String> ingredients = new HashMap <Integer, String>();
 	private int mapIndex = 0;
 	private int totalIngredients;
 	
-	private static int totalPizzas = 0;
 	
 	public Pizza(String flavor) {
 		this.flavor = flavor;
@@ -24,6 +25,12 @@ public class Pizza {
 		this.ingredients.put(mapIndex, ingredient);
 		this.totalIngredients++;
 		setPrice();
+		if (allIngredients.containsKey(ingredient)) {
+			int quantity = allIngredients.get(ingredient) + 1;
+			allIngredients.replace(ingredient, quantity);
+		} else {
+			allIngredients.put(ingredient, 1);
+		}
 	}
 	
 	private void setPrice() {
@@ -46,5 +53,12 @@ public class Pizza {
 	
 	public String getFlavor() {
 		return this.flavor;
+	}
+	
+	public void displayAllIngredients() {
+		String[] display = allIngredients.toString().split(", ");
+		for (String s : display) {
+			System.out.println(s);
+		}
 	}
 }
