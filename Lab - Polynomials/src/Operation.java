@@ -49,4 +49,8 @@ public class Operation {
 			}
 		}
 	}
+	
+	public Polynomial[] getPolynomial() {
+		return poly;
+	}
 }
