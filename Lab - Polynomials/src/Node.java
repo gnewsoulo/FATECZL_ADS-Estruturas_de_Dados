@@ -3,8 +3,8 @@ public class Node {
 	private Node next;
 	private double coeff;
 	private double degree;
-	private double xValue;
 	
+		
 	public Node(double coeff, double degree) {
 		next = (Node) null;
 		this.coeff = coeff;
@@ -18,13 +18,21 @@ public class Node {
 	public void setNext(Node next) {
 		this.next = next;
 	}
-
-	public double getxValue() {
-		return xValue;
+	
+	public double getCoeff() {
+		return coeff;
 	}
-
-	public void setxValue(double xValue) {
-		this.xValue = xValue;
+	
+	public void setCoeff(double coeff) {
+		this.coeff = coeff;
+	}
+	
+	public double getDegree() {
+		return degree;
+	}
+	
+	public void setDegree(double degree) {
+		this.degree = degree;
 	}
 	
 }
